@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sesion 1 Estructura Basica De HTLM5</title>
+</head>
+<body>
+    <section id="left-panel">
+        <div id="brand-wrapper">
+            <img src="img/kodemia-logo.jpeg" alt="" srcset="">
+        </div>
+        <div id="nav-wrapper">
+            <div id="nav-header">
+                <div class="user-tag">
+                    <p><b>Bienvenido</b></p>
+                    <p>José Pedro Espinoza</p>
+            </div>
+            </div>
+            <div id="nav-body">
+                <div class="nav-item">Catálogos</div>
+                <div class="nav-item">Plantillas</div>
+                <div class="nav-item">Reporteador</div>
+                <div class="nav-item">Gestión de Usuarios</div>
+                <div class="nav-item">Cerrar Sesión</div>
+            </div>
+
+        </div>
+    </section>
+    <section id="right-panel">
+        <div class="nav-bar">
+            <ul class="nav-item">Derechohabientes</ul>
+            <ul class="nav-item">Destinos</ul>
+            <ul class="nav-item">Elementos</ul>
+        </div>
+        <div class="content">
+            <div class="content-right">
+                <div>
+                    <span>Selecciona el periodo que deseas consultar</span>
+                </div>
+                <div>
+                    <label for="from">De:</label>
+                    <input type="date" name="" id="">
+                    <label for="to">Hasta:</label>
+                    <input type="date" name="" id="">
+                </div>
+
+            </div>
+            <div class="content-medium">
+                <div>
+                    <span>Elemento de aprendizaje</span>
+                </div>
+                <div>
+                    <form action="">
+                        <input list="learning" name="learning" placeholder="Ver Todo">
+                        <datalist id="learning">
+                            <option value="Aprendizaje 1">
+                            <option value="Aprendizaje 2">
+                            <option value="Aprendizaje 3">
+                        </datalist>
+                    </form>
+                </div>
+            </div>
+            <div class="content-left">
+                <div>
+                    <span>Selecciona el curso</span>
+                </div>
+                <div>
+                    <form action="">
+                        <input list="course" name="course" placeholder="Ver Todo">
+                        <datalist id="course">
+                            <option value="Curso 1">
+                            <option value="Curso 2">
+                            <option value="Curso 3">
+                        </datalist>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <input type="button" value="Consultar">
+    </section>
+</body>
+</html>
